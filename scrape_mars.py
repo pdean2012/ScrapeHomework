@@ -110,6 +110,10 @@ def scrape():
         {"title": "Syrtis Major Hemisphere", "img_url": "http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/syrtis_major_enhanced.tif"},
     ]
 
+    hemisphere_image_url_1 = "https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/valles_marineris_enhanced.tif/full.jpg"
+    hemisphere_image_url_2 = "http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg"
+    hemisphere_image_url_3 = "http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/schiaparelli_enhanced.tif/full.jpg"
+    hemisphere_image_url_4 = "http://astropedia.astrogeology.usgs.gov/download/Mars/Viking/syrtis_major_enhanced.tif/full.jpg"
 
     # In[166]:
 
@@ -120,7 +124,11 @@ def scrape():
         "img_url": img_url,
         "tweet":tweet,
         #"tablehtml":tablehtml,
-        "hemisphere_image_urls":hemisphere_image_urls    
+        "hemisphere_image_urls":hemisphere_image_urls,    
+        "hemisphere_image_url_1":hemisphere_image_url_1,
+        "hemisphere_image_url_2":hemisphere_image_url_2,
+        "hemisphere_image_url_3":hemisphere_image_url_3,
+        "hemisphere_image_url_4":hemisphere_image_url_4
     }
 
 

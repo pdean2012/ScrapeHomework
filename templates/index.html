@@ -18,13 +18,57 @@
     </div>
 
     <!-- Craigslist Listings -->
-    <div class="row" id="craiglist-listings">
+    <div class="row">
       <div class="col-md-12">
-        <h4 class="heading">{{mars_data.newspara}}</h4>
-        <small></small>
+        <h1 class="heading">Latest Mars News</h1>
+        <h3>{{mars_data.newstitle}}</h3>
+        <p>{{mars_data.newspara}}</p>
       </div>
     </div>
-
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="heading">Featured Mars Image</h1>
+        <br>
+        <img src={{mars_data.img_url}} class="img-responsive">
+      </div>
+      <div class="col-md-4">
+        <h3>Current Weather on Mars</h3>
+        <br>
+        <p>{{mars_data.tweet}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="heading">Mars Hemispheres</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <figure class="figure">
+          <img src={{mars_data.hemisphere_image_url_1}} class="img-responsive" alt="1">
+          <figcaption class="figure-caption"><h3>Valles Marineris Hemisphere</h3></figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6">
+        <figure class="figure">
+          <img src={{mars_data.hemisphere_image_url_2}} class="img-responsive" alt="1">
+          <figcaption class="figure-caption"><h3>Cerberus Hemisphere</h3></figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6">
+        <figure class="figure">
+          <img src={{mars_data.hemisphere_image_url_3}} class="img-responsive" alt="1">
+          <figcaption class="figure-caption"><h3>Schiaparelli Hemisphere</h3></figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6">
+        <figure class="figure">
+          <img src={{mars_data.hemisphere_image_url_4}} class="img-responsive" alt="1">
+          <figcaption class="figure-caption"><h3>Syrtis Major Hemisphere</h3></figcaption>
+        </figure>
+      </div>
+    </div>
+    
   </div>
 </body>
 
